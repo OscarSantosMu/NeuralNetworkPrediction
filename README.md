@@ -10,7 +10,7 @@ In this project, an Artificial Neural Network was used to predict hourly the dif
 # Findings
 
 The most interesting thing about this project from my point of view, was that better results were obtained using classification than regression in a problem where regression would normally be chosen. How? Instead of taking numbers as numbers, I took numbers as classes, from 0.00 to 1.00.
-If the model predicted a class "0.73" where "0.72" was the real class, even though you get relatively low accuracy because of not matching the correct class, the answer is actually close to the result. Take a look at the report for more details.
+If the model predicted a class "0.73" where "0.72" was the real class, even though you get relatively low accuracy because of not matching the correct class, the answer is actually close to the real value. Take a look at the report for more details.
 
 ### Example: Results of the hourly prediction for the first **day**
 
@@ -47,15 +47,17 @@ If the model predicted a class "0.73" where "0.72" was the real class, even thou
 ![Predictions with Test Data for the first week](static/img/PredictWithTest.jpg)
 
 # Presentation
-I truly recommend you to download an watch it in Powerpoint since I made some animations in some slides.
+[Download it here](Final%20presentation.pptx)
 
 # Report
-WARNING: The report will not be updated. So there might be still some mistakes.
+[Read it here](Using%20Neural%20Network%20to%20Predict%20Diffuse%20Fraction%20kd%20(Ratio%20of%20the%20Diffuse-to-Global%20Solar%20Radiation).pdf)
 
 # Code
-The code is jupyter notebook file but it is highly recommended to open it with google colaboratory environment because I used some libraries of Google colab to enter the data files and also due to the fact that its GPU was used for the training of the artificial neural network.
-Besides if you have any problem with the method files.download please run that section twice and allow pop-up windows or comment that line to run the section.
-A preview can be seen here in GitHub if you click on the file and wait a few seconds.
+[Open Jupyter Notebook preview here](NeuralNetworkForPV.ipynb)
+
+I suggest you to open it with Google Colab if GitHub does not load the preview.
+
+# Contact
 
 For any questions please contact me.
 e-mail: oa.santosmunoz@ugto.mx
