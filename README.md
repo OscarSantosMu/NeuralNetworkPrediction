@@ -3,6 +3,10 @@ This is the repository for all the files related to my reseach internship in Jap
 
 In this project, an Artificial Neural Network was used to predict hourly the diffuse fraction at Nagaoka city in Japan, using global radiation, date and time as input parameters. The data set used was obtained by the system (Japan Meteorological Agency, AMeDAS) for the period (1981-2000), of which 15 years (1981-1995) were taken for training, 2 years for validation (1996-1997) and 3 years as an isolated data set (1998-2000) for testing. The model did not show perfect accuracy, however it made very close predictions, due to the way the neural network was created. The forecast was made by classification instead of non-linear regression with Feedforward Neural Network architecture composed of 3 hidden layers with 128 neurons each. The aim of this research is to develop a model to correlate diffuse fraction and global irradiance and thus provide researchers a sub-neural network in their neural networks since these results can be used as inputs to other neural networks, this will contribute to create more accurate models with a higher number of inputs and that they can improve certain applications and solar devices.
 
+# Architecture
+
+![](static/img/ANN%20Architecture.png)
+
 # Findings
 
 The most interesting thing about this project from my point of view, was that better results were obtained using classification than regression in a problem where regression would normally be chosen. How? Instead of taking numbers as numbers, I took numbers as classes, from 0.00 to 1.00.
